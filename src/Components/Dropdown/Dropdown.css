@@ -1,0 +1,5 @@
+.dropdown-container {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
