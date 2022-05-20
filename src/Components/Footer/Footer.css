@@ -1,37 +1,37 @@
 .footer {
-    width: 90%;
-    height: 10%;
-    z-index: 1;
+  width: 90%;
+  height: 10%;
+  z-index: 1;
 }
 .instagram-text {
-    color: #F3F6FB;
+  color: #f3f6fb;
 }
 
 .instagram-container > * {
-    margin: 0px;
-    transition: transform 0.2s;
+  margin: 0px;
+  transition: transform 0.2s;
 }
 
 .instagram-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  width: fit-content;
 }
 
 .instagram-container:hover {
-    transition: transform 1s;
+  transition: transform 1s;
 }
 
 .instagram-container:hover > * {
-    transform: skewX(-15deg);
-    transition: transform 0.2s;
+  transform: skewX(-15deg);
+  transition: transform 0.2s;
 }
 
 .logo {
-    margin: 0px 5px 5px 0px;
-    margin-top: 7px;
-    width: 1.35em;
-    height: 1.35em;
+  margin: 0px 5px 5px 0px;
+  margin-top: 7px;
+  width: 1.35em;
+  height: 1.35em;
 }

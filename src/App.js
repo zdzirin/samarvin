@@ -1,24 +1,34 @@
-import './App.css';
+import "./App.css";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"; 
-import { photos } from "./javascript/photos";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import { photoInfo } from "./photos";
 
 // Pages
-import Main from './Pages/Main.js'
-import Photos from './Pages/Photos.js'
+import Main from "./Pages/Main.js";
+import Videos from "./Pages/Videos";
+import Photo from "./Pages/Photo.js";
+import Collection from "./Pages/Collection";
+import Collections from "./Pages/Collections";
 
 function App() {
-
   return (
     <div>
       <Router>
         <Switch>
           <Route exact path="/">
-            <Main photos={photos} />
+            <Main />
           </Route>
-          <Route path="/photos">
-            <Photos photos={photos} />
+          <Route path="/collections">
+            <Collections />
           </Route>
+          <Route path="/videos">
+            <Videos videos={[]} />
+          </Route>
+          <Route path="/photo/:i">
+            <Photo />
+          </Route>
+          <Route path="/collection/:name" component={Collection} />
         </Switch>
       </Router>
     </div>

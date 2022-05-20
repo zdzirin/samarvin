@@ -5,11 +5,11 @@ body {
   width: 100vw;
   height: 100vh;
 
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 h1 {
-  font-family: 'Lato', serif;
+  font-family: "Lato", serif;
 }
 
 .main-text {
@@ -17,4 +17,21 @@ h1 {
   color: #313113;
   font-weight: 300;
   letter-spacing: 2px;
+}
+
+.photo-modal-backdrops {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(119, 119, 119, 0.75);
+  backdrop-filter: blur(4px);
+}
+
+.photo-modal-backdrops > img {
+  max-width: 80%;
+  max-height: 80%;
 }

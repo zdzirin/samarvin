@@ -1,18 +1,26 @@
 .photo-list-container {
-    width: 60%;
-    max-height: 70%;
-    padding: 15px;
-
+  width: 75%;
+  max-height: 70%;
+  padding: 15px 15px 15px 30px;
+  overflow-y: scroll;
 }
 
 .photo-list-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: '0px 0px 40px';
+  display: flex;
+  flex-direction: row;
+  margin: "0px 0px 40px";
 }
 
 .thumbnail-photo {
-    max-width: 25%;
-    height: auto;
+  box-sizing: border-box;
+  width: 33%;
+  height: 25%;
+  padding: 10px;
+  transition: transform 0.2s;
+  flex-grow: 0;
+  object-fit: cover;
+}
+
+.thumbnail-photo:hover {
+  transform: scale(1.05);
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Dropdown from "../Dropdown/Dropdown.js";
 
 export default function Navbar(props) {
@@ -17,28 +17,36 @@ export default function Navbar(props) {
       </Link>
       <div className="desktop links">
         <Link
-          to="/photos"
+          to="/collections"
+          className="main-text"
+          style={{ marginRight: "4em", textDecoration: "none" }}
         >
           Photo
         </Link>
-        <p className="main-text" style={{ marginRight: "4em" }}>
-          Photo
-        </p>
-        <p className="main-text">Video</p>
+        <Link
+          to="/videos"
+          className="main-text"
+          style={{ textDecoration: "none" }}
+        >
+          Video
+        </Link>
       </div>
       <Dropdown outerClassName="mobile">
         <div className="links">
           <Link
-            to="/photos"
+            to="/collections"
             className="main-text"
             style={{ marginTop: "12px", marginBottom: "20px" }}
           >
             Photo
           </Link>
-          <Link></Link>
-          <p className="main-text" style={{ marginBottom: "20px" }}>
+          <Link
+            to="/photos"
+            className="main-text"
+            style={{ marginBottom: "20px" }}
+          >
             Video
-          </p>
+          </Link>
         </div>
       </Dropdown>
     </div>

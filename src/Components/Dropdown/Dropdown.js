@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
-import './Dropdown.css'
+import "./Dropdown.css";
 import ExpandMore from "../../Images/expand_more-black-24dp.svg";
 
 export default function Dropdown(props) {
   const [isOpen, setIsOpen] = useState(false);
   const [innerHtml, setInnerHtml] = useState("");
 
-  useEffect(() => {
-
-  });
+  useEffect(() => {});
 
   return (
     <div className={`dropdown-container ${props.outerClassName}`}>
@@ -18,10 +16,11 @@ export default function Dropdown(props) {
       >
         <img
           src={ExpandMore}
+          alt="arrow to expand"
           style={{
             transform: isOpen ? "rotateX(180deg)" : "rotateX(0deg)",
             transition: "transform 0.3s",
-            cursor: "pointer"
+            cursor: "pointer",
           }}
           width="36px"
           height="36px"
@@ -29,8 +28,8 @@ export default function Dropdown(props) {
       </button>
       <div
         style={{
-          position: 'absolute',
-          top: '30px',
+          position: "absolute",
+          top: "30px",
           display: isOpen ? "block" : "none",
           transition: "display 0.2s",
         }}
