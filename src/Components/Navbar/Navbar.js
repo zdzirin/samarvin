@@ -41,7 +41,7 @@ export default function Navbar(props) {
             Photo
           </Link>
           <Link
-            to="/photos"
+            to="/videos"
             className="main-text"
             style={{ marginBottom: "20px" }}
           >
