@@ -71,5 +71,7 @@
 
   .links {
     flex-direction: column;
+    background-color: white;
+    padding: 5px 20px;
   }
 }

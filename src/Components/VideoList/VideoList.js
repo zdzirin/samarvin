@@ -8,15 +8,25 @@ function VideoList(props) {
 
   return (
     <div className="video-list-container" data-simplebar>
-        {videos.map((item) => (<Video video={item} />))}
+      {videos.map((item) => (
+        <Video video={item} />
+      ))}
     </div>
   );
 }
 
 function Video(props) {
-    return (
-        <h1>this is a video {props.video}</h1>
-    );
+  return (
+    <iframe
+      width="80%"
+      style={{ aspectRatio: "2/1", margin: "50px 0px" }}
+      src={props.video}
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  );
 }
 
 export default VideoList;

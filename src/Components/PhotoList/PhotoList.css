@@ -1,6 +1,6 @@
 .photo-list-container {
   width: 75%;
-  max-height: 70%;
+  height: 70%;
   padding: 15px 15px 15px 30px;
   overflow-y: scroll;
 }
@@ -13,11 +13,10 @@
 
 .thumbnail-photo {
   box-sizing: border-box;
-  width: 33%;
-  height: 25%;
-  padding: 10px;
+  max-width: 90%;
+  max-height: calc(75vh * 0.9);
+  padding: 50px;
   transition: transform 0.2s;
-  flex-grow: 0;
   object-fit: cover;
 }
 

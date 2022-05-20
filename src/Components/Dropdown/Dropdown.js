@@ -4,7 +4,6 @@ import ExpandMore from "../../Images/expand_more-black-24dp.svg";
 
 export default function Dropdown(props) {
   const [isOpen, setIsOpen] = useState(false);
-  const [innerHtml, setInnerHtml] = useState("");
 
   useEffect(() => {});
 

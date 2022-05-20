@@ -2,8 +2,6 @@ import "./App.css";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { photoInfo } from "./photos";
-
 // Pages
 import Main from "./Pages/Main.js";
 import Videos from "./Pages/Videos";
