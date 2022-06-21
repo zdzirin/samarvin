@@ -13,10 +13,8 @@ function Collections() {
     categories.push(e.category);
   });
 
-  console.log(categories);
-
   return (
-    <div className="page-container">
+    <div className="page-container" style={{ height: window.innerHeight }}>
       <Navbar />
       <CollectionsList categories={categories} />
       <Footer subpage />

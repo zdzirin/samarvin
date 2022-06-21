@@ -1,7 +1,10 @@
 .footer {
   width: 90%;
-  height: 10%;
+  height: 50px;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .instagram-text {
   color: #f3f6fb;

@@ -24,6 +24,12 @@ export default function Footer(props) {
           @smarvin111
         </p>
       </a>
+      <p
+        className="main-text instagram-text"
+        style={{ color: props.subpage ? "#313113" : "#F3F6FB" }}
+      >
+        smarvin111@gmail.com
+      </p>
     </div>
   );
 }

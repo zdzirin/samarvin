@@ -10,7 +10,6 @@ export default function Collection() {
   const [openPhoto, setOpenPhoto] = useState(-1);
 
   const handleOpenPhoto = (v) => {
-    console.log(v);
     setOpenPhoto(v);
   };
 
@@ -23,15 +22,14 @@ export default function Collection() {
   });
 
   return (
-    <div className="page-container">
+    <div className="page-container" style={{ height: window.innerHeight }}>
       <Navbar />
       <PhotoList photos={photoList} setOpenPhoto={handleOpenPhoto} />
       <Footer subpage />
       {openPhoto >= 0 && (
         <div
-          className="photo-modal-backdrops"
+          className="photo-modal-backdrop"
           onClick={() => {
-            console.log("hi");
             setOpenPhoto(-1);
           }}
         >
@@ -39,10 +37,10 @@ export default function Collection() {
             src={require("../Photos/" + photoList[openPhoto].src).default}
             alt="selected"
             onClick={(e) => {
-              console.log("hello");
               e.stopPropagation();
             }}
           />
+          <p>{photoList[openPhoto].description}</p>
         </div>
       )}
     </div>
