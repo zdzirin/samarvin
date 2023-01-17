@@ -181,4 +181,37 @@ export const photoInfo = [
     detail:
       "Professional portrait shot for Jamil Wilson, 2021 North American Rolex Scholar for the Our World Underwater Scholarship Society",
   },
+
+  {
+    name: "SplitRockOfHoreb.jpg",
+    category: "Portrait",
+    detail:
+      "A Saudi man stands for a photo in front of the Split Rock of Horeb",
+  },
+
+  {
+    name: "16thCenturyAnchorPalmata.jpg",
+    category: "Underwater",
+    detail:
+      "A large anchor from an unidentified 16th Century Spanish Wreck rests on a reef off of the coast of Cap Cana, Dominican Republic",
+  },
+
+  {
+    name: "Iguabonita.jpg",
+    category: "Landscape",
+    detail:
+      "A sinkhole from inside of Iguabonita Cave in Cap Cana, Dominican Republic",
+  },
+  /*
+  {
+    name: "PetraTower.jpg",
+    category: "Landscape",
+    detail: "Dusk in the ancient city of Petra",
+  },
+*/
+  {
+    name: "PetraCeiling.jpg",
+    category: "Landscape",
+    detail: "Detail of the ceiling inside of a tomb at Petra, Jordan",
+  },
 ];
