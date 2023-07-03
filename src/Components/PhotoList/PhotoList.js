@@ -8,7 +8,7 @@ function PhotoList(props) {
   return (
     <div className="photo-list-container" data-simplebar>
       {photos.map((el, i) => {
-        console.log(el);
+        // console.log(el);
         return (
           <img
             className="thumbnail-photo"

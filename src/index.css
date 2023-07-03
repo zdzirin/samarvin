@@ -36,9 +36,10 @@ h1 {
   background-color: white;
   padding: 25px 10px;
   width: 80%;
+  font-size: 0.875rem;
 }
 
 .photo-modal-backdrop > img {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 90%;
+  max-height: 75%;
 }

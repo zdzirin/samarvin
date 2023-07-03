@@ -6,24 +6,10 @@ export const photoInfo = [
   },
 
   {
-    name: "Icelandhorses-8.jpg",
+    name: "IcelandHorses-8.jpg",
     category: "Wildlife",
     detail:
       "An adult and a juvenile Icelandic horse along the  East coast of Iceland",
-  },
-
-  {
-    name: "ChimboVicuñas.jpg",
-    category: "Wildlife",
-    detail:
-      "A trio of wild vicuñas in front of the volcano Chimborazo in Ecuador",
-  },
-
-  {
-    name: "GalapagosFrigateLookingBack.jpg",
-    category: "Wildlife",
-    detail:
-      "A female frigate bird on San Cristobal Island in the Galapagos Islands",
   },
 
   {
@@ -61,19 +47,13 @@ export const photoInfo = [
   {
     name: "MollieHeadshot.jpeg",
     category: "Portrait",
-    detail: "Professional headshot taken on the Indiana University campus",
+    detail: "Professional 2021 Indiana University graduation photo",
   },
 
   {
     name: "adamgradphoto.jpeg",
     category: "Portrait",
     detail: "Professional 2021 Indiana University graduation photo",
-  },
-
-  {
-    name: "QuitoFromAbove.jpg",
-    category: "Landscape",
-    detail: "The streets of Quito, Ecuador as seen from El Panecillo Hill",
   },
 
   {
@@ -125,8 +105,9 @@ export const photoInfo = [
     name: "Tatuajes.jpg",
     category: "Portrait",
     detail:
-      "A girl gets a tattoo in a makeshift tattoo shop in Puerto Sungaro, Peru",
+      "Getting a tattoo in a makeshift tattoo shop in Puerto Sungaro, Peru",
   },
+
   {
     name: "AcroporaPalmata.jpg",
     category: "Underwater",
@@ -142,7 +123,7 @@ export const photoInfo = [
   },
 
   {
-    name: "16thCenturyHorsehoe.jpg",
+    name: "16thCenturyHorseshoe.jpg",
     category: "Underwater",
     detail:
       "A research diver holds an uncovered horseshoe from an unidentified 16th century shipwreck off the coast of Cap Cana, Dominican Republic. After being treasure hunted extensively for 3 years, this shipwreck is now finally being academically studied by Indiana University, who still continues to recover important artifacts that represent the colonization of the New World by Spain. This artifact is representative of some of the first horses that came to the New World from Spain, and will be conserved and studied by researchers",
@@ -193,7 +174,7 @@ export const photoInfo = [
     name: "16thCenturyAnchorPalmata.jpg",
     category: "Underwater",
     detail:
-      "A large anchor from an unidentified 16th Century Spanish Wreck rests on a reef off of the coast of Cap Cana, Dominican Republic",
+      "A large anchor from an unidentified 16th Century Spanish shipwreck rests on a reef off of the coast of Cap Cana, Dominican Republic",
   },
 
   {
@@ -202,16 +183,91 @@ export const photoInfo = [
     detail:
       "A sinkhole from inside of Iguabonita Cave in Cap Cana, Dominican Republic",
   },
-  /*
+
   {
     name: "PetraTower.jpg",
     category: "Landscape",
     detail: "Dusk in the ancient city of Petra",
   },
-*/
+
   {
     name: "PetraCeiling.jpg",
     category: "Landscape",
-    detail: "Detail of the ceiling inside of a tomb at Petra, Jordan",
+    detail: "Detail of the ceiling inside of a tomb at Petra",
+  },
+
+  {
+    name: "AqabaMorning.jpg",
+    category: "Landscape",
+    detail: "Early morning in Aqaba, Jordan",
+  },
+
+  {
+    name: "BlueSpottedRay.jpg",
+    category: "Underwater",
+    detail: "A bluespotted ribbontail ray in the Red Sea, Saudi Arabia",
+  },
+
+  {
+    name: "CallaLily.jpg",
+    category: "Landscape",
+    detail: "A Calla Lily photographed in Peru’s Sacred Valley",
+  },
+
+  {
+    name: "CatalinaSeaplane.jpg",
+    category: "Landscape",
+    detail:
+      "The  wreckage of a PBY-5A Catalina US Navy seaplane on the coast of the Red Sea, Ras Al-Sheikh Hameed, Saudi Arabia",
+  },
+
+  {
+    name: "ChitwanRoad.jpg",
+    category: "Landscape",
+    detail: "A winding forest road in Nepal’s Chitwan National Park",
+  },
+
+  {
+    name: "CrescentMoon.jpg",
+    category: "Landscape",
+    detail:
+      "The crescent moon rises above a mosque during Ramadan in Saudi Arabia",
+  },
+
+  {
+    name: "FallenPalm.jpg",
+    category: "Landscape",
+    detail:
+      "A fallen palm tree rests on the beach of Catalina Island, Dominican Republic",
+  },
+
+  {
+    name: "GizaPyramids.jpg",
+    category: "Landscape",
+    detail: "The Pyramids of Giza",
+  },
+
+  {
+    name: "GrayLangur.jpg",
+    category: "Wildlife",
+    detail: "A young gray langur is cradled by its mother",
+  },
+
+  {
+    name: "IbnTulunMosque.jpg",
+    category: "Landscape",
+    detail: "The Mosque of Ibn Tulun in Cairo, Egypt",
+  },
+
+  {
+    name: "OneHornedRhino.jpg",
+    category: "Wildlife",
+    detail: "A greater one-horned rhinoceros in Chitwan National Park, Nepal",
+  },
+
+  {
+    name: "YubaCoral.jpg",
+    category: "Underwater",
+    detail: "A reef wall in the Red Sea, Saudi Arabia",
   },
 ];

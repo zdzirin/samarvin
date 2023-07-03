@@ -8,8 +8,17 @@ import Videos from "./Pages/Videos";
 import Photo from "./Pages/Photo.js";
 import Collection from "./Pages/Collection";
 import Collections from "./Pages/Collections";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    fetch(
+      "https://docs.google.com/document/d/e/2PACX-1vTZf_OeVqmu0idRWJAEnFPWPuanVDI7V_euMioMTUvIsJMc6Kne2w1k5y6XKnURjGZPoMyH1CWghbPP/pub"
+    )
+      .then((res) => res.body.getReader())
+      .catch((err) => console.log(err));
+  }, []);
+
   return (
     <div>
       <Router>
