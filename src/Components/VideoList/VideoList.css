@@ -1,5 +1,6 @@
 .video-list-container {
   width: 90%;
-  height: 70%;
   flex-grow: 1;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }

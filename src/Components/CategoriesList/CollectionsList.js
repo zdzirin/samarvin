@@ -5,7 +5,7 @@ import "./CategoriesList.css";
 
 export default function CollectionsList(props) {
   return (
-    <div data-simplebar className="categories-list">
+    <div className="categories-list ">
       {props.categories.map((e, i) => {
         return <Collection i={i} src={`/${e}Cover.jpg`} alt={e} title={e} />;
       })}

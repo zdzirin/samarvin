@@ -7,7 +7,7 @@ function VideoList(props) {
   const videos = props.videos;
 
   return (
-    <div className="video-list-container" data-simplebar>
+    <div className="video-list-container snap-scroll">
       {videos.map((item) => (
         <Video video={item} />
       ))}
@@ -17,15 +17,17 @@ function VideoList(props) {
 
 function Video(props) {
   return (
-    <iframe
-      width="80%"
-      style={{ aspectRatio: "2/1", margin: "50px 0px" }}
-      src={props.video}
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <div className="content-display-container">
+      <iframe
+        width="100%"
+        style={{ aspectRatio: "2/1" }}
+        src={props.video}
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
   );
 }
 

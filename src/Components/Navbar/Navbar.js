@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Dropdown from "../Dropdown/Dropdown.js";
 
-export default function Navbar(props) {
+export default function Navbar() {
   return (
     <div className="navbar-container">
       <Link

@@ -4,7 +4,7 @@ import Footer from "../Components/Footer/Footer.js";
 
 import MountainFogSillhouette from "../Photos/MountainFogSillhouette.jpg";
 
-function Main(props) {
+function Main() {
   return (
     <div
       className="page-container"

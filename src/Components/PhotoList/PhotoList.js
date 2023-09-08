@@ -6,16 +6,19 @@ function PhotoList(props) {
   const photos = props.photos;
   const images = require.context("../../Photos", true);
   return (
-    <div className="photo-list-container" data-simplebar>
+    <div className="photo-list-container snap-scroll">
       {photos.map((el, i) => {
         // console.log(el);
         return (
-          <img
-            className="thumbnail-photo"
-            src={images(`./${el.src}`).default}
-            alt={el.description}
-            onClick={() => props.setOpenPhoto(i)}
-          />
+          <div className="content-display-container">
+            {/* maybe come back to this label <p>{i}</p>*/}
+            <img
+              className="thumbnail-photo"
+              src={images(`./${el.src}`).default}
+              alt={el.description}
+              onClick={() => props.setOpenPhoto(i)}
+            />
+          </div>
         );
       })}
     </div>

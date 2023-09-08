@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // Pages
 import Main from "./Pages/Main.js";
 import Videos from "./Pages/Videos";
-import Photo from "./Pages/Photo.js";
 import Collection from "./Pages/Collection";
 import Collections from "./Pages/Collections";
 import { useEffect } from "react";
@@ -30,10 +29,7 @@ function App() {
             <Collections />
           </Route>
           <Route path="/videos">
-            <Videos videos={[]} />
-          </Route>
-          <Route path="/photo/:i">
-            <Photo />
+            <Videos />
           </Route>
           <Route path="/collection/:name" component={Collection} />
         </Switch>
