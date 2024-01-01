@@ -1,19 +1,19 @@
 export const photoInfo = [
   {
-    name: "easternscreech-2.jpg",
+    name: "easternscreech2.jpg",
     category: "Wildlife",
     detail: "A red-phase eastern screech owl in Celery Bog Nature Area",
   },
 
   {
-    name: "IcelandHorses-8.jpg",
+    name: "IcelandHorses8.jpg",
     category: "Wildlife",
     detail:
       "An adult and a juvenile Icelandic horse along the  East coast of Iceland",
   },
 
   {
-    name: "puffinsround2-3.jpg",
+    name: "puffinsround23.jpg",
     category: "Wildlife",
     detail:
       "An Atlantic puffin peaks out from behind the grass on Icelands’ North coast",
@@ -90,7 +90,7 @@ export const photoInfo = [
   },
 
   {
-    name: "pelican-2.jpg",
+    name: "pelican2.jpg",
     category: "Wildlife",
     detail: "A Peruvian pelican poses on the beach in Paracas, Peru",
   },
